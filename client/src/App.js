@@ -37,8 +37,12 @@ function App() {
                             <Route path="/signin" element={<Login/>}/>
                         </Routes>
                         <Routes>
+                            <Route path="/" element={<Login/>}/>
+                        </Routes>
+                        <Routes>
                             <Route path="/todos/:id" element={<Todos/>}/>
                         </Routes>
+
                     </div>
                 </div>
             </Router>
